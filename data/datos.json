@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Cable",
+        "superpoder": "Volver en el tiempo",
+        "img": "Imgs/rrcluta1.jpg"
+    },
+    {
+        "nombre": "Dominó",
+        "superpoder": "Tener suerte",
+        "img": "Imgs/rrcluta2.jpg"
+    },
+    {
+        "nombre": "Russell",
+        "superpoder": "El fuego",
+        "img": "Imgs/rrcluta3.jpg"
+    }
+]

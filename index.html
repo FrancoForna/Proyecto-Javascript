@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margrave</title>
+    <link rel="stylesheet" href="css\estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="init">
+    <header id="headerP" class="headerP">
+    </header>
+    <div style="display: none;" id="formOne">
+        <h1 class="tituloForm"> Conozcamonos un poco</h1>
+        <div class="divPrinc" >
+            <div class="divPrinc_1">
+                <img class="imgForm" src="Imgs/recluta.jpg">
+            </div>
+            <div id="lForm" class="divPrinc_2">
+            <form id="formPrinc" class="formPrinc">
+                <legend class="legendForm"> Primero, dinos tu nombre</legend>
+                <input  type="text" class="inputForm datosForm">
+                <legend class="legendForm"> ¿Cual es tu edad?</legend>
+                <input type="number" class="inputForm datosForm">
+                <legend class="legendForm"> ¿Porque estas aqui?</legend>
+                <input type="text" class="inputForm datosForm">
+                <legend class="legendForm"> ¿Que es lo que haras en el grupo?</legend>
+                <input type="text" class="inputForm datosForm">
+                <button id="submit" class="botoness"> Enviar </button>
+            </form>
+            <img style="display: none;" id="formC" src="/Imgs/partner0-removebg-preview.png">
+            </div>
+        </div>
+    </div>
+    <div class="divSecun" style="display: none;" id="question">
+        <h2 class="tituloForm"> Comencemos </h2>
+        <div class="divSecun_1">
+            <form>
+                <p> ¿Cuantas peliculas de mi saga existen hasta hoy?</p>
+                <div class="divSecun_12">
+                    <input class="p1" type="radio" id="1" name="numberOfMovie" value="1">
+                    <label>1</label>
+                    <input class="p1" type="radio" id="2" name="numberOfMovie" value="2">
+                    <label>2</label>
+                    <input class="p1" type="radio" id="3" name="numberOfMovie" value="3">
+                    <label>3</label>
+                    <input class="p1" type="radio" id="4" name="numberOfMovie" value="4">
+                    <label>4</label>
+                    <button id="botonP1" class="botoness">Enviar</button>
+                </div>
+            </form>
+            <div>
+                <h2 class="tituloForm">Ajax</h2>
+                <div id="mAjax"></div>
+            </div>
+        </div>
+        <!-- <div style="display:none;" class="divSecun_2">
+            <form>
+                <p> ¿Cuantas peliculas de mi saga existen hasta hoy?</p>
+                <div class="divSecun_22">
+                    <input class="p2" type="radio" id="1" name="numberOfMovie" value="1">
+                    <label>1</label>
+                    <input class="p2" type="radio" id="2" name="numberOfMovie" value="2">
+                    <label>2</label>
+                    <input class="p2" type="radio" id="3" name="numberOfMovie" value="3">
+                    <label>3</label>
+                    <input class="p2" type="radio" id="4" name="numberOfMovie" value="4">
+                    <label>4</label>
+                    <button id="botonP1" class="">Enviar</button>
+                </div>
+            </form>
+        </div> -->
+    </div>
+    <script type="module" src="JS/app.js"></script>
+    <script src="JS/library/jquery-3.6.0.min.js"></script>
+</body>
+</html>
